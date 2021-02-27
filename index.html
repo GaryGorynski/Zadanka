@@ -7,55 +7,55 @@
     <title>Document</title>
  <link rel="stylesheet" href="style.css">
 </head>
-<body class="">
-    <section>
-        <main>
-          <a href="http://google.com">Google</a>
-          <a href="http://twitter.com" target="_blank">Twitter</a>
-          <ul>
-            <li>Lorem</li>
-            <li>ipsum</li>
-            <li>dolor</li>
-            <ul>
-              <li>sit</li>
-              <li>
-                <ol>
-                  <li>amet</li>
-                  <li>
-                    <p>consectetur<span>adipiscing</span>
-                      <b>elit</b>
+<body>
+    <section class="sekcja">
+        <main class="box">
+          <a class="box__link" href="http://google.com">Google</a>
+          <a class="box__link" href="http://twitter.com" target="_blank">Twitter</a>
+          <ul class="box__list">
+            <li class="box__list-item">Lorem</li>
+            <li class="box__list-item">ipsum</li>
+            <li class="box__list-item">dolor</li>
+            <ul class="box__list">
+              <li class="box__list-item">sit</li>
+              <li class="box__list-item">
+                <ol class="box__ordered-list">
+                  <li class="box__ordered-list-item">amet</li>
+                  <li class="box__ordered-list-item">
+                    <p class="box__paragraph">consectetur<span class="box__paragraph-span">adipiscing</span>
+                      <b class="box__paragraph-bold">elit</b>
                     </p>
                   </li>
                 </ol>
               </li>
-              <li>
-                <a>no href :(</a>
+              <li class="box__list-item">
+                <a class="box__list-link">no href :(</a>
               </li>
-              <li>id</li>
+              <li class="box__list-item">id</li>
             </ul>
           </ul>   
           
-          <p>Lorem ipsum dolor sit amet</p>
-          <a>no href :(</a>
-          <button disabled="true" name="button" type="button">
+          <p class="box__paragraph">Lorem ipsum dolor sit amet</p>
+          <a class="box__link">no href :(</a>
+          <button class="box__btn" disabled="true" name="button" type="button">
             I'm disabled :(
           </button>
         </main>
     </section>
       
-      <div>
-        <p>Lorem ipsum dolor sit amet</p>
+      <div class="container">
+        <p class="container__paragaph">Lorem ipsum dolor sit amet</p>
         
-        <ol>
-          <li>Lorem</li>
-          <li>ipsum</li>
-          <li>dolor</li>
-          <li>sit<a>no href :(</a>
+        <ol class="container__ordered-list">
+          <li class="container__ordered-list-item">Lorem</li>
+          <li class="container__ordered-list-item">ipsum</li>
+          <li class="container__ordered-list-item">dolor</li>
+          <li class="container__ordered-list-item">sit<a>no href :(</a>
           </li>
         </ol>
         
-        <form>
-          <button type="submit">
+        <form class="container__form">
+          <button class="container__btn" type="submit">
             I'm not disabled :)
           </button>
         </form>

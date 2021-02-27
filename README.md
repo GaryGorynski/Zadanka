@@ -1,6 +1,3 @@
  # Zadanka
 
-
-# Zmianka 
-
-Siemanko
+10 zadań z CSS basics.

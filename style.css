@@ -6,6 +6,16 @@
 a:hover {
     font-weight:bold;
     padding:4px;
-    transition:0.4s;
 }
 
+.box__list-no-link {
+    cursor:not-allowed;
+} 
+
+.box__no-link {
+    cursor: not-allowed;
+
+}
+.conainter__ordered-list-noLink {
+    cursor:not-allowed;
+}

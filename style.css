@@ -3,4 +3,9 @@
     opacity: 0.75;
 }
 
+a:hover {
+    font-weight:bold;
+    padding:4px;
+    transition:0.4s;
+}
 

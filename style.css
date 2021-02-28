@@ -1,17 +1,19 @@
+/* Zadanie 2 */
+
 .box__link {
     color:pink;
     opacity: 0.75;
 }
-
+/* Zadanie 3 */
 a:hover {
     font-weight:bold;
     padding:4px;
 }
+/* Zadanie 4 */
 
 .box__list-no-link {
     cursor:not-allowed;
 } 
-
 .box__no-link {
     cursor: not-allowed;
 
@@ -19,3 +21,20 @@ a:hover {
 .conainter__ordered-list-noLink {
     cursor:not-allowed;
 }
+
+/* Zadanie 5 */
+ul ol {
+    font-size: 18px;
+}
+/* Zadanie 6 */
+
+.box__paragraph {
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+/* Zadanie 7 */
+.box__list--bezpunktorow {
+    list-style-type:none;
+}
+
